@@ -22,10 +22,8 @@
 
       <ion-item class="profile-item">
         <!-- Imagen de perfil -->
-        <ion-avatar class="profile-avatar">
-          <img src="../assets/img/malcom.jfif" alt="Avatar del perfil">
-        </ion-avatar>
-      
+        <img [src]="usuarioImagen" alt="Foto de Perfil" *ngIf="usuarioImagen" />
+        
         <!-- Información del perfil -->
         <ion-label>
           <h2>Malcolm</h2>

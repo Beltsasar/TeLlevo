@@ -1,0 +1,42 @@
+/* Importar fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+/* Variables de color */
+:root {
+    --skyblue: #858FB4;
+    --paleblue: #CCD1DB;
+    --pink: #E87096;
+    --blush: #EBBAC2;
+    --yellow: #EDB240;
+    --white: #FFFFFF;
+}
+
+/* Estilo para ion-item */
+ion-item {
+    margin-bottom: 10px; /* Margen inferior para separar los items */
+    color: #E87096; /* Color de texto para todo el ion-item */
+    font-family: 'Yusei Magic', sans-serif; /* Cambia la fuente a Yusei Magic */
+}
+
+/* Estilo para ion-label */
+ion-label {
+    font-weight: bold; /* Texto en negrita para las etiquetas */
+    color: #E87096; /* Cambia el color a pink */
+    font-family: 'Yusei Magic', sans-serif; /* Cambia la fuente a Yusei Magic */
+}
+
+/* Estilo para ion-text */
+ion-text {
+    font-family: 'Yusei Magic', sans-serif; /* Asegúrate de que el ion-text también use la fuente */
+    color: #E87096; /* Cambia el color a pink si es necesario */
+}
+
+/* Estilo para ion-card-title */
+ion-card-title {
+    color: #858FB4; /* Cambia el color del título a skyblue /* Cambia la fuente a Pacifico */
+    font-size: 30px; /* Ajusta el tamaño de la fuente si lo deseas */
+    text-align: center; /* Centra el texto (opcional) */
+    margin: 0; /* Asegura que no haya margen adicional */
+    font-family: 'Yusei Magic', sans-serif; 
+}

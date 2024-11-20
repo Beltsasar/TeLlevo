@@ -1,5 +1,6 @@
 <ion-header>
-  <ion-toolbar>
+
+ <ion-toolbar>
     <ion-title>Inicio Pasajero</ion-title>
     <ion-buttons slot="start">
       <ion-back-button defaultHref="index"></ion-back-button>
@@ -7,33 +8,34 @@
   </ion-toolbar>
 </ion-header>
 
+
 <ion-content class="ion-padding">
   
   <!-- Sección de perfil del pasajero -->
   <ion-card class="profile-card">
     <ion-item>
-      <ion-avatar slot="start">
+      <ion-avatar slot="start" class="profile-avatar">
         <img src="../assets/img/pasajero.jpg" alt="Foto del pasajero">
       </ion-avatar>
       
-      <ion-label>
+      <ion-label class="custom-label">
         <h2>María López</h2>
         <p>Pasajero desde 2021</p>
       </ion-label>
     </ion-item>
   </ion-card>
 
-
   <!-- Botones de acción principales -->
   <ion-grid>
     <ion-row>
       <ion-col>
-        <ion-button expand="block" color="success" [routerLink]="['/ofrecer-viaje']">
-Ofrecer Viaje        </ion-button>
+        <ion-button expand="block"  class="custom-button" [routerLink]="['/ofrecer-viaje']">
+          Ofrecer Viaje
+        </ion-button>
       </ion-col>
-
     </ion-row>
   </ion-grid>
+  
   <app-mostrar-destino-ofrecido></app-mostrar-destino-ofrecido>
 
 </ion-content>
